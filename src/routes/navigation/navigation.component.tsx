@@ -16,7 +16,7 @@ import {
 } from './navigation.styles';
 
 const Navigation = () => {
-  // This is a test comment
+  // This is a test
   const dispatch = useDispatch();
   const currentUser = useSelector(selectCurrentUser);
   const isCartOpen = useSelector(selectIsCartOpen);
